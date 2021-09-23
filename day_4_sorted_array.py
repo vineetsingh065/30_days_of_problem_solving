@@ -27,14 +27,14 @@ def prob(arr, q) :
 
 if __name__ == "__main__":
 
-	n = int(input())
-	arr = []
-	for i in range(0, n):
-		t = int(input())
-		arr.append(t)
+    n = int(input())
+    arr = []
+    for i in range(0, n):
+        t = int(input())
+        arr.append(t)
 
-	no_of_queries = int(input())
+    no_of_queries = int(input())
 
-	for i in range(0, no_of_queries):
-		q = int(input())
-		print(prob(arr, q))
+    for i in range(0, no_of_queries):
+        q = int(input())
+        print(prob(arr, q))
